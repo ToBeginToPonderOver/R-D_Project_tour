@@ -10,15 +10,15 @@
 
 .box {
   background-color: #ffffff;
-  width:80%;
-  height: 600px;
+  width:70%;
+  height: 560px;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   /* border: 5px solid green; */
 }
 
 .innerbox {
-  margin: 150px 100px;
+  margin: 130px 100px;
   /* border: 5px solid yellow */
 }
 
@@ -34,12 +34,13 @@
 .demologo{
   width: 250px;
   height: 110px;
-  margin-left: 380px;
+  margin-left: 240px;
   margin-top: 36px;
 }
 
 .intro .welcome{
   font-size: 30px;
+  width: 340px;
 }
 .nu{
   font-size: 40px;
@@ -108,7 +109,7 @@
   border: 1px solid #6273a3;
 }
 .name input {
-  width: 30vw;
+  width: 25vw;
   height: 36px;
   margin-bottom: 10px;
   border-radius: 5px;
@@ -124,7 +125,7 @@
   height: 36px;
   width: 175px;
   cursor: pointer;
-  margin-left: 747px;
+  margin-left: 604px;
   margin-top: 3% ;
   border-radius: 5px;
 }
@@ -136,52 +137,53 @@
 
 /* Responsive Design */
 
-@media only screen and ( max-width: 1120px){
+@media only screen and ( max-width: 1240px){
 
   .box {
-    max-width: 600px; /* Set a maximum width for larger screens */
+    max-width: 600px; 
   }
   
   .innerbox {
-    margin: 50px 20px; /* Adjust margin for smaller screens */
+    margin: 10px 20px; 
   }
   
   .in {
-    flex-direction: column; /* Stack content vertically on smaller screens */
-    align-items: center; /* Center content */
-    text-align: center; /* Center text */
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
   }
   
   .intro {
-    height: auto; /* Adjust height for smaller screens */
+    height: auto; 
   }
   
   .demologo {
-    width: 80%; /* Use a percentage for responsiveness */
-    max-width: 250px; /* Set a maximum width for larger screens */
-    margin: 20px 0; /* Adjust margin for smaller screens */
+    width: 80%; 
+    max-height: 100px;
+    max-width: 200px; 
+    margin: 10px 0; 
   }
   
   .intro .welcome {
-    font-size: 24px; /* Adjust font size for smaller screens */
+    font-size: 24px; 
   }
   
   .nu {
-    font-size: 36px; /* Adjust font size for smaller screens */
-    margin-top: 5px; /* Adjust margin for smaller screens */
+    font-size: 36px; 
+    margin-top: 5px; 
   }
   
   .boxes {
-    flex-direction: column; /* Stack boxes vertically on smaller screens */
-    align-items: center; /* Center boxes */
+    flex-direction: column;
+    align-items: center; 
   }
   
   
   .visitor,
   .parent,
   .student {
-    width: 100%; /* Expand boxes to full width on smaller screens */
-    margin-bottom: 10px; /* Add margin between boxes on smaller screens */
+    width: 95%; 
+    margin-bottom: 10px; 
   }
   
 
